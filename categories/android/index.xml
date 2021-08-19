@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Example Site</title>
+    <link>https://example.com/categories/android/</link>
+    <description>Recent content in Android on Example Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Aug 2021 16:00:53 +0800</lastBuildDate><atom:link href="https://example.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android 防止機器人驗證 Google圖形驗證 reCAPTCHA</title>
+      <link>https://example.com/p/android-%E9%98%B2%E6%AD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%A9%97%E8%AD%89-google%E5%9C%96%E5%BD%A2%E9%A9%97%E8%AD%89-recaptcha/</link>
+      <pubDate>Thu, 19 Aug 2021 16:00:53 +0800</pubDate>
+      
+      <guid>https://example.com/p/android-%E9%98%B2%E6%AD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%A9%97%E8%AD%89-google%E5%9C%96%E5%BD%A2%E9%A9%97%E8%AD%89-recaptcha/</guid>
+      <description>reCAPTCHA官網申請金鑰 reCAPTCHA官網
+選擇方式(套件是你的包名) 待會要輸入的金鑰 金鑰價格計算 導入Safetynet dependencies { implementation &amp;#39;com.google.android.gms:play-services-safetynet:17.0.1&amp;#39; } 布局&amp;amp;方法介紹 布局 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;androidx.constraintlayout.widget.ConstraintLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:orientation=&amp;#34;vertical&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;Button android:onClick=&amp;#34;check&amp;#34; android:id=&amp;#34;@+id/btn_robot&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;center&amp;#34; android:layout_marginTop=&amp;#34;132dp&amp;#34; android:text=&amp;#34;驗證&amp;#34; android:textSize=&amp;#34;20sp&amp;#34; app:layout_constraintEnd_toEndOf=&amp;#34;parent&amp;#34; app:layout_constraintHorizontal_bias=&amp;#34;0.498&amp;#34; app:layout_constraintStart_toStartOf=&amp;#34;parent&amp;#34; app:layout_constraintTop_toTopOf=&amp;#34;parent&amp;#34; /&amp;gt; &amp;lt;TextView android:id=&amp;#34;@+id/result&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_marginTop=&amp;#34;92dp&amp;#34; app:layout_constraintEnd_toEndOf=&amp;#34;@+id/btn_robot&amp;#34; app:layout_constraintStart_toStartOf=&amp;#34;@+id/btn_robot&amp;#34; app:layout_constraintTop_toBottomOf=&amp;#34;@+id/btn_robot&amp;#34; /&amp;gt; &amp;lt;/androidx.constraintlayout.widget.ConstraintLayout&amp;gt; 方法介紹 添加金鑰 verifyWithRecaptcha(&amp;#34;6LfnVckbAAAAAHdhba1jkIZXymHK14MlOn03V4st&amp;#34;) 程式碼範例 import android.os.Bundle import android.view.View import android.widget.TextView import androidx.appcompat.app.AppCompatActivity import com.google.android.gms.safetynet.SafetyNet class MainActivity : AppCompatActivity() { override fun onCreate(savedInstanceState: Bundle?</description>
+    </item>
+    
+  </channel>
+</rss>
