@@ -6,6 +6,114 @@
         <description>Recent content on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 19 Aug 2021 16:00:53 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Android 防止機器人驗證 Google圖形驗證 reCAPTCHA</title>
+        <link>https://example.com/p/android-%E9%98%B2%E6%AD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%A9%97%E8%AD%89-google%E5%9C%96%E5%BD%A2%E9%A9%97%E8%AD%89-recaptcha/</link>
+        <pubDate>Thu, 19 Aug 2021 16:00:53 +0800</pubDate>
+        
+        <guid>https://example.com/p/android-%E9%98%B2%E6%AD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%A9%97%E8%AD%89-google%E5%9C%96%E5%BD%A2%E9%A9%97%E8%AD%89-recaptcha/</guid>
+        <description>&lt;img src="https://example.com/p/android-%E9%98%B2%E6%AD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%A9%97%E8%AD%89-google%E5%9C%96%E5%BD%A2%E9%A9%97%E8%AD%89-recaptcha/android_bg.png" alt="Featured image of post Android 防止機器人驗證 Google圖形驗證 reCAPTCHA" /&gt;&lt;h2 id=&#34;recaptcha官網申請金鑰&#34;&gt;reCAPTCHA官網申請金鑰&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.google.com/recaptcha/admin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;reCAPTCHA官網&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;選擇方式套件是你的包名&#34;&gt;選擇方式(套件是你的包名)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://badgameshow.com/fly/wp-content/uploads/2021/07/messageImage_1627542477421.jpg&#34; alt=&#34;選擇方式(套件是你的包名)&#34;  /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;待會要輸入的金鑰&#34;&gt;待會要輸入的金鑰&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://badgameshow.com/fly/wp-content/uploads/2021/07/messageImage_1627542704804.jpg&#34; alt=&#34;待會要輸入的金鑰&#34;  /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;金鑰價格計算&#34;&gt;金鑰價格計算&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://badgameshow.com/fly/wp-content/uploads/2021/07/messageImage_1627541033807.jpg&#34; alt=&#34;金鑰價格計算&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;導入safetynet&#34;&gt;導入Safetynet&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Kotlin&#34; data-lang=&#34;Kotlin&#34;&gt;&lt;span class=&#34;n&#34;&gt;dependencies&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+     &lt;span class=&#34;n&#34;&gt;implementation&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;google&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;android&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gms&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;play&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;safetynet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;17.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;布局方法介紹&#34;&gt;布局&amp;amp;方法介紹&lt;/h2&gt;
+&lt;h3 id=&#34;布局&#34;&gt;布局&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-XML&#34; data-lang=&#34;XML&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;androidx.constraintlayout.widget.ConstraintLayout&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns:android=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;xmlns:app=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;xmlns:tools=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.android.com/tools&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;android:layout_width=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;match_parent&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;android:layout_height=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;match_parent&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;android:orientation=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;vertical&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;tools:context=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;.MainActivity&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;Button&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:onClick=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;check&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;@+id/btn_robot&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:layout_width=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;wrap_content&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:layout_height=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;wrap_content&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:layout_gravity=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;center&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:layout_marginTop=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;132dp&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:text=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;驗證&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:textSize=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;20sp&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:layout_constraintEnd_toEndOf=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;parent&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:layout_constraintHorizontal_bias=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0.498&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:layout_constraintStart_toStartOf=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;parent&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:layout_constraintTop_toTopOf=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;parent&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;TextView&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;@+id/result&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:layout_width=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;wrap_content&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:layout_height=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;wrap_content&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;android:layout_marginTop=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;92dp&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:layout_constraintEnd_toEndOf=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;@+id/btn_robot&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:layout_constraintStart_toStartOf=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;@+id/btn_robot&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:layout_constraintTop_toBottomOf=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;@+id/btn_robot&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+
+
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/androidx.constraintlayout.widget.ConstraintLayout&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;方法介紹&#34;&gt;方法介紹&lt;/h3&gt;
+&lt;h4 id=&#34;添加金鑰&#34;&gt;添加金鑰&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Kotlin&#34; data-lang=&#34;Kotlin&#34;&gt;&lt;span class=&#34;n&#34;&gt;verifyWithRecaptcha&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;6LfnVckbAAAAAHdhba1jkIZXymHK14MlOn03V4st&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;程式碼範例&#34;&gt;程式碼範例&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Kotlin&#34; data-lang=&#34;Kotlin&#34;&gt;&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;android.os.Bundle&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;android.view.View&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;android.widget.TextView&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;androidx.appcompat.app.AppCompatActivity&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;com.google.android.gms.safetynet.SafetyNet&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;MainActivity&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AppCompatActivity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;fun&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;onCreate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;savedInstanceState&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Bundle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;?)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;onCreate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;savedInstanceState&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;setContentView&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;layout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;activity_main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;fun&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;view&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;View&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;py&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;TextView&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;findViewById&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;SafetyNet&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;getClient&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;verifyWithRecaptcha&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;6LfnVckbAAAAAHdhba1jkIZXymHK14MlOn03V4st&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;addOnSuccessListener&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;response&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;
+                &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tokenResult&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;?.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isNotEmpty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                    &lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;認證成功&amp;#34;&lt;/span&gt;
+                &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;addOnFailureListener&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;認證失敗&amp;#34;&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;效果展示&#34;&gt;效果展示&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://badgameshow.com/fly/wp-content/uploads/2021/07/1627543439239.gif&#34; alt=&#34;效果展示&#34;  /&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>幣安Binance輸入推薦邀請碼 UBMQ7F92：20% OFF 折扣(永久手續費減免)</title>
+        <link>https://example.com/p/%E5%B9%A3%E5%AE%89binance%E8%BC%B8%E5%85%A5%E6%8E%A8%E8%96%A6%E9%82%80%E8%AB%8B%E7%A2%BC-ubmq7f9220-off-%E6%8A%98%E6%89%A3%E6%B0%B8%E4%B9%85%E6%89%8B%E7%BA%8C%E8%B2%BB%E6%B8%9B%E5%85%8D/</link>
+        <pubDate>Thu, 19 Aug 2021 16:00:53 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E5%B9%A3%E5%AE%89binance%E8%BC%B8%E5%85%A5%E6%8E%A8%E8%96%A6%E9%82%80%E8%AB%8B%E7%A2%BC-ubmq7f9220-off-%E6%8A%98%E6%89%A3%E6%B0%B8%E4%B9%85%E6%89%8B%E7%BA%8C%E8%B2%BB%E6%B8%9B%E5%85%8D/</guid>
+        <description>&lt;img src="https://example.com/p/%E5%B9%A3%E5%AE%89binance%E8%BC%B8%E5%85%A5%E6%8E%A8%E8%96%A6%E9%82%80%E8%AB%8B%E7%A2%BC-ubmq7f9220-off-%E6%8A%98%E6%89%A3%E6%B0%B8%E4%B9%85%E6%89%8B%E7%BA%8C%E8%B2%BB%E6%B8%9B%E5%85%8D/bg.jpg" alt="Featured image of post 幣安Binance輸入推薦邀請碼 UBMQ7F92：20% OFF 折扣(永久手續費減免)" /&gt;&lt;h2 id=&#34;幣安binance推薦邀請碼有多少折扣&#34;&gt;幣安Binance推薦邀請碼有多少折扣？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;幣安推薦邀請碼(referral code)：UBMQ7F92&lt;/li&gt;
+&lt;li&gt;折扣優惠：20% OFF 手續費折扣(每筆交易) + 25% BNB 手續費折扣&lt;/li&gt;
+&lt;li&gt;手續費減免方式：每筆交易立刻返回 20% 手續費到帳戶內&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;點下面這個連結，就能直接進入到註冊頁面&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://accounts.binance.com/zh-TW/register?ref=UBMQ7F92&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;幣安交易所&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;註冊幣安帳戶使用最優惠的邀請碼ubmq7f92&#34;&gt;註冊幣安帳戶，使用最優惠的邀請碼！(UBMQ7F92)&lt;/h2&gt;
+&lt;h2 id=&#34;20-off-手續費折扣--25-bnb-手續費折扣&#34;&gt;20% OFF 手續費折扣 + 25 BNB 手續費折扣&lt;/h2&gt;
+</description>
+        </item>
+        
     </channel>
 </rss>
